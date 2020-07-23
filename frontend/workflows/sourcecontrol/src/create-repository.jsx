@@ -110,7 +110,7 @@ const CreateRepository = ({ heading }) => {
 
   return (
     <Wizard dataLayout={dataLayout} heading={heading}>
-      <RepositoryDetails name="Repository Details" />
+      <RepositoryDetails name="Repository Details" options={options}/>
       <Confirm name="Confirmation" />
     </Wizard>
   );
